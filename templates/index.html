@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+    <img src="{{ url_for('static', filename='logo.jpg') }}" alt="Logo" style="height: 50px; width: 100px;">
+    <span style="color: navy; font-weight: bold; color: black;">ScriptoSolution</span>
+</div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#upload-image">Know Medicine</a></li>
+                     <li><a href="#predict-disease">Know Disease</a></li>
+                    <li><a href="#know">Know Your Specialist</a></li>
+                    <li><a href="#recommend">Recommend Doctor</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <div>
+            <!-- Your content here -->
+            <h2 style="font-size: 35px;">Empower your health decisions: journey from prescription to specialist seamlessly with our innovative platform.</h2>
+            <p style="font-size: 24px; color: navy;">Discover personalized care tailored to your unique health needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Image Section -->
+<section id="upload-image" class="section">
+    <div class="container">
+        <h2>Medicine From Prescription of Doctor</h2>
+        <form id="upload-form" enctype="multipart/form-data">
+            <input type="file" id="image" name="image" accept=".png, .jpg, .jpeg" required>
+            <input type="submit" value="Extract Medicine Names" id="extract-btn">
+        </form>
+        <div id="extracted-medicines"></div>
+    </div>
+</section>
+
+
+    <!-- Predict Disease Section -->
+<section id="predict-disease" class="section">
+    <div class="container">
+        <h2>Predict Disease from Medicine</h2>
+        <form id="predict-disease-form">
+            <input type="text" id="medicine" placeholder="Enter Medicine Name" required>
+            <input type="submit" value="Predict Disease" id="predict-disease-btn">
+        </form>
+        <div id="predicted-disease"></div>
+    </div>
+</section>
+
+
+    <!-- Know Your Specialist Section -->
+    <section id="know" class="section">
+        <div class="container">
+            <h2>Predict Specialty </h2>
+            <form id="predict-form">
+                <input type="text" id="disease" placeholder="Enter Disease" required>
+                <input type="submit" value="Predict Specialist" id="predict-btn">
+            </form>
+            <div id="result"></div>
+        </div>
+    </section>
+
+    <!-- Recommend Doctor Section -->
+    <section id="recommend" class="section">
+        <div class="container">
+            <h2>Recommend Doctor</h2>
+        <form id="recommend-form">
+            <input type="text" id="specialty" placeholder="Enter Specialty" required>
+            <input type="submit" value="Recommend Doctor" id="recommend-btn">
+        </form>
+        <div id="doctor-info"></div>
+            <!-- Your content here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="copywrite">
+                &copy; 2024 Hustlers. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- JavaScript for AJAX request -->
+    <script>
+    $(document).ready(function() {
+        $('#predict-form').submit(function(event) {
+            event.preventDefault();
+            var disease = $('#disease').val();
+            predictSpecialist(disease);
+        });
+
+        function predictSpecialist(disease) {
+            $.ajax({
+                url: '/predict',
+                method: 'POST',
+                data: { disease: disease },
+                success: function(response) {
+                    $('#result').html('<p><strong>Disease:</strong> ' + response.disease + '</p>' +
+                                      '<p><strong>Specialist:</strong> ' + response.specialist + '</p>');
+                }
+            });
+
+
+
+        }
+    });
+
+
+
+        $(document).ready(function() {
+    $('#recommend-form').submit(function(event) {
+        event.preventDefault();
+        var specialty = $('#specialty').val();
+        recommendDoctor(specialty);
+    });
+
+    function recommendDoctor(specialty) {
+        $.ajax({
+            url: '/recommend',
+            method: 'POST',
+            data: { specialty: specialty },
+            success: function(response) {
+                if ('error' in response) {
+                    $('#doctor-info').html('<p>' + response.error + '</p>');
+                } else {
+                    $('#doctor-info').empty();
+                    response.doctors.forEach(function(doctor){
+                        $('#doctor-info').append('<div class="doctor">' +
+                                                     '<p><strong>Doctor\'s Name:</strong> ' + doctor.doctor_name + '</p>' +
+                                                     '<p><strong>Contact:</strong> ' + doctor.contact + '</p>' +
+                                                     '<p><strong>Address:</strong> ' + doctor.address + '</p>' +
+                                                 '</div>');
+                    });
+                }
+
+            }
+        });
+    }
+});
+
+        $(document).ready(function() {
+    $('#predict-disease-form').submit(function(event) {
+        event.preventDefault();
+        var medicine = $('#medicine').val();
+        predictDisease(medicine);
+    });
+
+    function predictDisease(medicine) {
+        $.ajax({
+            url: '/predict_disease',
+            method: 'POST',
+            data: { medicine: medicine },
+            success: function(response) {
+                $('#predicted-disease').html('<p><strong>Medicine:</strong> ' + response.medicine + '</p>' +
+                                      '<p><strong>Predicted Disease:</strong> ' + response.predicted_disease + '</p>');
+            }
+        });
+    }
+});
+
+        $(document).ready(function() {
+    $('#upload-form').submit(function(event) {
+        event.preventDefault();
+        var formData = new FormData($(this)[0]);
+        uploadImage(formData);
+    });
+
+    function uploadImage(formData) {
+        $.ajax({
+            url: '/upload',
+            method: 'POST',
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function(response) {
+                $('#extracted-medicines').html('<p><strong>Image:</strong> ' + response.image + '</p>' +
+                                      '<p><strong>Medicine Names:</strong> ' + response.medicine_names.join(', ') + '</p>');
+            }
+        });
+    }
+});
+
+
+
+    </script>
+</body>
+</html>

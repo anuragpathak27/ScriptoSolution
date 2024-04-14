@@ -1,0 +1,569 @@
+Disease,Specialist
+Allergy,Allergist
+Hypertension,Cardiologist
+Heart attack,Cardiologist
+Psoriasis,Dermatologist
+Chicken pox,Dermatologist
+Acne,Dermatologist
+Impetigo,Dermatologist
+Fungal infection,Dermatologist
+Hypothyroidism,Endocrinologist
+Diabetes,Endocrinologist
+Hypoglycemia,Endocrinologist
+Hyperthyroidism,Endocrinologist
+GERD,Gastroenterologist
+Peptic ulcer disease,Gastroenterologist
+Jaundice,Gastroenterologist
+Dimorphic hemmorhoids(piles),Gastroenterologist
+Gastroenteritis,Gastroenterologist
+Urinary tract infection,Gynecologist
+Chronic cholestasis,Hepatologist
+Hepatitis A,Hepatologist
+Hepatitis B,Hepatologist
+Hepatitis C,Hepatologist
+Hepatitis E,Hepatologist
+Hepatitis D,Hepatologist
+Alcoholic hepatitis,Hepatologist
+Malaria,Internal Medicine
+Dengue,Internal Medicine
+Migraine,Neurologist
+Cervical spondylosis,Neurologist
+Paralysis (brain hemorrhage),Neurologist
+AIDS,Osteopathic
+(vertigo) Paroxysmal Positional Vertigo,Otolaryngologist
+Common Cold,Otolaryngologist
+Typhoid,Pediatrician
+Varicose veins,Phlebologist
+Bronchial Asthma,Pulmonologist
+Pneumonia,Pulmonologist
+Osteoarthristis,Rheumatologist
+Arthritis,Rheumatologist
+Tuberculosis,Tuberculosis Specialist
+Influenza,General Practitioner
+Dysentery,Gastroenterologist
+Cholera,Gastroenterologist
+Yellow fever,Infectious Disease Specialist
+Leptospirosis,Infectious Disease Specialist
+Lyme disease,Infectious Disease Specialist
+Meningitis,Neurologist
+Encephalitis,Neurologist
+Rabies,Neurologist
+HIV/AIDS,Infectious Disease Specialist
+Schizophrenia,Psychiatrist
+Bipolar disorder,Psychiatrist
+Depression,Psychiatrist
+Anxiety disorder,Psychiatrist
+Obsessive-compulsive disorder (OCD),Psychiatrist
+Post-traumatic stress disorder (PTSD),Psychiatrist
+Anemia,Hematologist
+Sickle cell disease,Hematologist
+Thalassemia,Hematologist
+Hemophilia,Hematologist
+Leukemia,Oncologist
+Lymphoma,Oncologist
+Breast cancer,Oncologist
+Prostate cancer,Oncologist
+Colon cancer,Oncologist
+Melanoma,Oncologist
+Kidney stones,Urologist
+Bladder stones,Urologist
+Prostate enlargement,Urologist
+Erectile dysfunction,Urologist
+Infertility,Reproductive Endocrinologist
+Menopause,Obstetrician-Gynecologist
+Pregnancy,Obstetrician-Gynecologist
+Endometriosis,Obstetrician-Gynecologist
+Pelvic inflammatory disease (PID),Obstetrician-Gynecologist
+Polycystic ovary syndrome (PCOS),Obstetrician-Gynecologist
+Premenstrual syndrome (PMS),Obstetrician-Gynecologist
+Fibroids,Obstetrician-Gynecologist
+Ovarian cancer,Gynecologic Oncologist
+Uterine cancer,Gynecologic Oncologist
+Cervical cancer,Gynecologic Oncologist
+Vaginal cancer,Gynecologic Oncologist
+Endometrial cancer,Gynecologic Oncologist
+Coronary artery disease,Cardiologist
+Angina pectoris,Cardiologist
+Myocardial infarction,Cardiologist
+Atherosclerosis,Cardiologist
+Peripheral artery disease,Cardiologist
+Arrhythmia,Cardiologist
+Heart failure,Cardiologist
+Valvular heart disease,Cardiologist
+Cardiomyopathy,Cardiologist
+Hypertrophic cardiomyopathy,Cardiologist
+Dilated cardiomyopathy,Cardiologist
+Restrictive cardiomyopathy,Cardiologist
+Pericarditis,Cardiologist
+Endocarditis,Cardiologist
+Rheumatic fever,Cardiologist
+Congenital heart disease,Cardiologist
+Chronic obstructive pulmonary disease (COPD),Pulmonologist
+Emphysema,Pulmonologist
+Chronic bronchitis,Pulmonologist
+Cystic fibrosis,Pulmonologist
+Bronchiectasis,Pulmonologist
+Interstitial lung disease,Pulmonologist
+Pulmonary fibrosis,Pulmonologist
+Sarcoidosis,Pulmonologist
+Pleural effusion,Pulmonologist
+Pneumothorax,Pulmonologist
+Asbestosis,Pulmonologist
+Silicosis,Pulmonologist
+Occupational lung disease,Pulmonologist
+Obstructive sleep apnea,Pulmonologist
+Central sleep apnea,Pulmonologist
+Mixed sleep apnea,Pulmonologist
+Cheyne-Stokes respiration,Pulmonologist
+Paroxysmal nocturnal dyspnea,Pulmonologist
+Platypnea-orthodeoxia syndrome,Pulmonologist
+Pulmonary embolism,Pulmonologist
+Pulmonary hypertension,Pulmonologist
+Primary pulmonary hypertension,Pulmonologist
+Secondary pulmonary hypertension,Pulmonologist
+Chronic thromboembolic pulmonary hypertension,Pulmonologist
+Pulmonary edema,Pulmonologist
+Neonatal respiratory distress syndrome,Pediatrician
+Adult respiratory distress syndrome,Intensivist
+Bronchiolitis,Pediatrician
+Bronchiolitis obliterans,Pulmonologist
+Respiratory syncytial virus infection,Pediatrician
+Respiratory failure,Intensivist
+Acute respiratory distress syndrome (ARDS),Intensivist
+Pulmonary fibrosis,Interstitial Lung Disease Specialist
+Pulmonary hypertension,Cardiologist
+Cystic fibrosis,Pulmonologist
+Sarcoidosis,Rheumatologist
+Silicosis,Occupational Medicine Specialist
+Interstitial lung disease,Interstitial Lung Disease Specialist
+Pulmonary embolism,Cardiologist
+Pleural effusion,Pulmonologist
+Pulmonary edema,Pulmonologist
+Pulmonary fibrosis,Interstitial Lung Disease Specialist
+Chronic obstructive pulmonary disease (COPD),Pulmonologist
+Occupational lung disease,Occupational Medicine Specialist
+Asthma,Pulmonologist
+Acute bronchitis,Pulmonologist
+Chronic bronchitis,Pulmonologist
+Bronchiectasis,Pulmonologist
+Cystic fibrosis,Pulmonologist
+Pneumonia,Pulmonologist
+Tuberculosis,Pulmonologist
+Asbestosis,Occupational Medicine Specialist
+Emphysema,Pulmonologist
+Pneumoconiosis,Occupational Medicine Specialist
+Sleep apnea,Respiratory Therapist
+Appendicitis,Gastroenterologist
+Gastritis,Gastroenterologist
+Gallstones,Gastroenterologist
+Pancreatitis,Gastroenterologist
+Peptic ulcer disease,Gastroenterologist
+Diverticulitis,Gastroenterologist
+Colitis,Gastroenterologist
+Crohn's disease,Gastroenterologist
+Ulcerative colitis,Gastroenterologist
+Irritable bowel syndrome,Gastroenterologist
+Hemorrhoids,Gastroenterologist
+Gastroesophageal reflux disease (GERD),Gastroenterologist
+Hepatitis,Hepatologist
+Liver cancer,Hepatologist
+Cirrhosis,Hepatologist
+Cholangitis,Hepatologist
+Cholecystitis,Hepatologist
+Cholelithiasis,Hepatologist
+Liver failure,Hepatologist
+Nonalcoholic fatty liver disease,Hepatologist
+Liver abscess,Hepatologist
+Wilson's disease,Hepatologist
+Hemochromatosis,Hepatologist
+Primary biliary cirrhosis,Hepatologist
+Gallbladder cancer,Hepatologist
+Primary sclerosing cholangitis,Hepatologist
+Gilbert's syndrome,Hepatologist
+Celiac disease,Gastroenterologist
+Barrett's esophagus,Gastroenterologist
+Pancreatic cancer,Medical Oncologist
+Pancreatic insufficiency,Gastroenterologist
+Pancreatic pseudocyst,Gastroenterologist
+Pancreatic abscess,Gastroenterologist
+Pancreatic neuroendocrine tumor,Gastroenterologist
+Pancreatic cyst,Gastroenterologist
+Cystic fibrosis,Gastroenterologist
+Acute pancreatitis,Gastroenterologist
+Chronic pancreatitis,Gastroenterologist
+Diabetic ketoacidosis,Endocrinologist
+Hyperosmolar hyperglycemic state,Endocrinologist
+Diabetic nephropathy,Nephrologist
+Diabetic retinopathy,Ophthalmologist
+Diabetic neuropathy,Neurologist
+Diabetic foot ulcer,Wound Care Specialist
+Diabetic dermopathy,Dermatologist
+Diabetic gastroparesis,Gastroenterologist
+Diabetic amyotrophy,Neurologist
+Diabetic coma,Endocrinologist
+Hypertensive nephropathy,Nephrologist
+IgA nephropathy (Berger's disease),Nephrologist
+Nephrotic syndrome,Nephrologist
+Chronic kidney disease (CKD),Nephrologist
+Polycystic kidney disease (PKD),Nephrologist
+Acute kidney injury (AKI),Nephrologist
+Interstitial nephritis,Nephrologist
+Glomerulonephritis,Nephrologist
+Renal tubular acidosis,Nephrologist
+Wegener's granulomatosis,Rheumatologist
+Goodpasture syndrome,Nephrologist
+Henoch-Schonlein purpura,Rheumatologist
+Systemic lupus erythematosus (SLE),Rheumatologist
+Rheumatoid arthritis,Rheumatologist
+Ankylosing spondylitis,Rheumatologist
+Psoriatic arthritis,Rheumatologist
+Reactive arthritis,Rheumatologist
+Osteoporosis,Endocrinologist
+Osteomalacia,Endocrinologist
+Paget's disease of bone,Endocrinologist
+Rickets,Endocrinologist
+Primary hyperparathyroidism,Endocrinologist
+Secondary hyperparathyroidism,Endocrinologist
+Tertiary hyperparathyroidism,Endocrinologist
+Hypoparathyroidism,Endocrinologist
+Pseudohypoparathyroidism,Endocrinologist
+Hyperthyroidism,Endocrinologist
+Hypothyroidism,Endocrinologist
+Thyroid cancer,Endocrinologist
+Goiter,Endocrinologist
+Graves' disease,Endocrinologist
+Hashimoto's thyroiditis,Endocrinologist
+Thyroid nodules,Endocrinologist
+Thyroiditis,Endocrinologist
+Diabetic ketoacidosis,Endocrinologist
+Hyperosmolar hyperglycemic state,Endocrinologist
+Hypoglycemia,Endocrinologist
+Insulinoma,Endocrinologist
+Diabetic nephropathy,Nephrologist
+Diabetic retinopathy,Ophthalmologist
+Diabetic neuropathy,Neurologist
+Diabetic foot ulcer,Wound Care Specialist
+Diabetic dermopathy,Dermatologist
+Diabetic gastroparesis,Gastroenterologist
+Diabetic amyotrophy,Neurologist
+Diabetic coma,Endocrinologist
+Meningitis,Neurologist
+Encephalitis,Neurologist
+Meningococcal meningitis,Neurologist
+Pneumococcal meningitis,Neurologist
+Viral meningitis,Neurologist
+Aseptic meningitis,Neurologist
+Tuberculous meningitis,Neurologist
+Cryptococcal meningitis,Neurologist
+Brain abscess,Neurosurgeon
+Brain tumor,Neurosurgeon
+Intracranial hemorrhage,Neurosurgeon
+Subarachnoid hemorrhage,Neurosurgeon
+Epidural hematoma,Neurosurgeon
+Subdural hematoma,Neurosurgeon
+Intracerebral hemorrhage,Neurosurgeon
+Hypertensive intracranial hemorrhage,Neurosurgeon
+Traumatic brain injury,Neurosurgeon
+Concussion,Neurologist
+Subdural hemorrhage,Neurosurgeon
+Epidural hemorrhage,Neurosurgeon
+Intracranial abscess,Neurosurgeon
+Cerebral contusion,Neurosurgeon
+Cerebral hematoma,Neurosurgeon
+Subarachnoid hemorrhage,Neurosurgeon
+Ventricular hemorrhage,Neurosurgeon
+Acute disseminated encephalomyelitis (ADEM),Neurologist
+Multiple sclerosis,Neurologist
+Acute necrotizing hemorrhagic encephalopathy,Neurologist
+Acute flaccid myelitis (AFM),Neurologist
+Cerebral palsy,Neurologist
+Guillain-Barre syndrome,Neurologist
+Myasthenia gravis,Neurologist
+Amyotrophic lateral sclerosis (ALS),Neurologist
+Spinal cord injury,Neurosurgeon
+Spinal cord abscess,Neurosurgeon
+Spinal cord hematoma,Neurosurgeon
+Spinal cord tumor,Neurosurgeon
+Cervical spine fracture,Orthopedic Surgeon
+Thoracic spine fracture,Orthopedic Surgeon
+Lumbar spine fracture,Orthopedic Surgeon
+Spinal stenosis,Neurosurgeon
+Spinal disc herniation,Orthopedic Surgeon
+Syringomyelia,Neurologist
+Spinal muscular atrophy,Neurologist
+Polio,Neurologist
+Transverse myelitis,Neurologist
+Rabies,Infectious Disease Specialist
+Herpes simplex virus (HSV) encephalitis,Neurologist
+Varicella-zoster virus (VZV) encephalitis,Neurologist
+Human herpesvirus 6 (HHV-6) encephalitis,Neurologist
+Epstein-Barr virus (EBV) encephalitis,Neurologist
+Cytomegalovirus (CMV) encephalitis,Neurologist
+West Nile virus encephalitis,Neurologist
+St. Louis encephalitis,Neurologist
+Eastern equine encephalitis,Neurologist
+Western equine encephalitis,Neurologist
+Japanese encephalitis,Neurologist
+Venezuelan equine encephalitis,Neurologist
+La Crosse encephalitis,Neurologist
+Powassan virus encephalitis,Neurologist
+Murray Valley encephalitis,Neurologist
+Ross River virus encephalitis,Neurologist
+California encephalitis,Neurologist
+Acanthamoeba encephalitis,Neurologist
+Granulomatous amoebic encephalitis (GAE),Neurologist
+Balamuthia amoebic encephalitis,Neurologist
+Naegleria fowleri encephalitis,Neurologist
+Primary amebic meningoencephalitis (PAM),Neurologist
+Toxoplasma encephalitis,Neurologist
+Progressive multifocal leukoencephalopathy (PML),Neurologist
+Naegleria fowleri encephalitis,Neurologist
+Primary amebic meningoencephalitis (PAM),Neurologist
+Toxoplasma encephalitis,Neurologist
+Progressive multifocal leukoencephalopathy (PML),Neurologist
+Eosinophilic meningoencephalitis,Neurologist
+Baylisascaris procyonis encephalitis,Neurologist
+Gnathostomiasis encephalitis,Neurologist
+Larva migrans encephalitis,Neurologist
+Schistosomiasis encephalitis,Neurologist
+Neurocysticercosis,Neurologist
+Angiostrongyliasis encephalitis,Neurologist
+Rat lungworm disease encephalitis,Neurologist
+Mycotic aneurysm,Critical Care Specialist
+Brain abscess,Critical Care Specialist
+Meningitis,Critical Care Specialist
+Encephalitis,Critical Care Specialist
+Subdural empyema,Critical Care Specialist
+Septicemia,Critical Care Specialist
+Endocarditis,Critical Care Specialist
+Osteomyelitis,Critical Care Specialist
+Necrotizing fasciitis,Critical Care Specialist
+Clostridial myonecrosis,Critical Care Specialist
+Gas gangrene,Critical Care Specialist
+Pyomyositis,Critical Care Specialist
+Tetanus,Critical Care Specialist
+Botulism,Critical Care Specialist
+Rabies,Infectious Disease Specialist
+Hepatitis A,Hepatologist
+Hepatitis B,Hepatologist
+Hepatitis C,Hepatologist
+Hepatitis D,Hepatologist
+Hepatitis E,Hepatologist
+Gastroenteritis,Gastroenterologist
+Salmonellosis,Gastroenterologist
+Shigellosis,Gastroenterologist
+Campylobacteriosis,Gastroenterologist
+Escherichia coli infection,Gastroenterologist
+Listeriosis,Gastroenterologist
+Norovirus infection,Gastroenterologist
+Rotavirus infection,Gastroenterologist
+Astrovirus infection,Gastroenterologist
+Adenovirus infection,Gastroenterologist
+Coronavirus infection,Gastroenterologist
+Astrovirus infection,Gastroenterologist
+Coronavirus infection,Gastroenterologist
+Norovirus infection,Gastroenterologist
+Rotavirus infection,Gastroenterologist
+HIV/AIDS,Infectious Disease Specialist
+Hepatitis,Hepatologist
+Yellow fever,Infectious Disease Specialist
+Dengue fever,Infectious Disease Specialist
+Chikungunya fever,Infectious Disease Specialist
+Zika fever,Infectious Disease Specialist
+Malaria,Infectious Disease Specialist
+Typhoid fever,Infectious Disease Specialist
+Cholera,Infectious Disease Specialist
+Leptospirosis,Infectious Disease Specialist
+Rat-bite fever,Infectious Disease Specialist
+Relapsing fever,Infectious Disease Specialist
+Rocky Mountain spotted fever,Infectious Disease Specialist
+Lyme disease,Infectious Disease Specialist
+Babesiosis,Infectious Disease Specialist
+Anaplasmosis,Infectious Disease Specialist
+Ehrlichiosis,Infectious Disease Specialist
+Tularemia,Infectious Disease Specialist
+Brucellosis,Infectious Disease Specialist
+Plague,Infectious Disease Specialist
+Anthrax,Infectious Disease Specialist
+Tetanus,Infectious Disease Specialist
+Botulism,Infectious Disease Specialist
+Gas gangrene,Infectious Disease Specialist
+Staphylococcal food poisoning,Infectious Disease Specialist
+Salmonellosis,Infectious Disease Specialist
+Shigellosis,Infectious Disease Specialist
+Campylobacteriosis,Infectious Disease Specialist
+Escherichia coli infection,Infectious Disease Specialist
+Listeriosis,Infectious Disease Specialist
+Clostridium perfringens infection,Infectious Disease Specialist
+Clostridium difficile infection,Infectious Disease Specialist
+Norovirus infection,Infectious Disease Specialist
+Rotavirus infection,Infectious Disease Specialist
+Astrovirus infection,Infectious Disease Specialist
+Adenovirus infection,Infectious Disease Specialist
+Astrovirus infection,Infectious Disease Specialist
+Coronavirus infection,Infectious Disease Specialist
+Human herpesvirus 6 (HHV-6) infection,Infectious Disease Specialist
+Epstein-Barr virus (EBV) infection,Infectious Disease Specialist
+Cytomegalovirus (CMV) infection,Infectious Disease Specialist
+Varicella-zoster virus (VZV) infection,Infectious Disease Specialist
+Herpes simplex virus (HSV) infection,Infectious Disease Specialist
+HIV/AIDS,Infectious Disease Specialist
+Herpes simplex virus (HSV) infection,Infectious Disease Specialist
+Herpes zoster (shingles),Infectious Disease Specialist
+Chickenpox,Infectious Disease Specialist
+Measles,Infectious Disease Specialist
+Mumps,Infectious Disease Specialist
+Rubella,Infectious Disease Specialist
+Hand,Infectious Disease Specialist
+Fifth disease,Infectious Disease Specialist
+Roseola,Infectious Disease Specialist
+Scarlet fever,Infectious Disease Specialist
+Kawasaki disease,Infectious Disease Specialist
+Epiglottitis,Infectious Disease Specialist
+Diphtheria,Infectious Disease Specialist
+Pertussis,Infectious Disease Specialist
+Tuberculosis,Infectious Disease Specialist
+Pneumonia,Infectious Disease Specialist
+Bronchitis,Infectious Disease Specialist
+Sinusitis,Infectious Disease Specialist
+Otitis media,Infectious Disease Specialist
+Pharyngitis,Infectious Disease Specialist
+Tonsillitis,Infectious Disease Specialist
+Laryngitis,Infectious Disease Specialist
+Infectious mononucleosis,Infectious Disease Specialist
+Group A streptococcal infection,Infectious Disease Specialist
+Group B streptococcal infection,Infectious Disease Specialist
+Group C streptococcal infection,Infectious Disease Specialist
+Group D streptococcal infection,Infectious Disease Specialist
+Group G streptococcal infection,Infectious Disease Specialist
+Streptococcal pharyngitis,Infectious Disease Specialist
+Scarlet fever,Infectious Disease Specialist
+Toxic shock syndrome,Infectious Disease Specialist
+Necrotizing fasciitis,Infectious Disease Specialist
+Cellulitis,Infectious Disease Specialist
+Erysipelas,Infectious Disease Specialist
+Impetigo,Infectious Disease Specialist
+Folliculitis,Infectious Disease Specialist
+Furuncle (boil),Infectious Disease Specialist
+Carbuncle,Infectious Disease Specialist
+Staphylococcal scalded skin syndrome,Infectious Disease Specialist
+Streptococcal skin infection,Infectious Disease Specialist
+Ecthyma,Infectious Disease Specialist
+Erysipeloid,Infectious Disease Specialist
+Cutaneous anthrax,Infectious Disease Specialist
+Cutaneous diphtheria,Infectious Disease Specialist
+Cutaneous larva migrans,Infectious Disease Specialist
+Cutaneous myiasis,Infectious Disease Specialist
+Cutaneous leishmaniasis,Infectious Disease Specialist
+Cutaneous leprosy,Infectious Disease Specialist
+Cutaneous tuberculosis,Infectious Disease Specialist
+Cutaneous cryptococcosis,Infectious Disease Specialist
+Cutaneous histoplasmosis,Infectious Disease Specialist
+Cutaneous blastomycosis,Infectious Disease Specialist
+Cutaneous sporotrichosis,Infectious Disease Specialist
+Cutaneous nocardiosis,Infectious Disease Specialist
+Cutaneous actinomycosis,Infectious Disease Specialist
+Cutaneous candidiasis,Infectious Disease Specialist
+Cutaneous tinea,Infectious Disease Specialist
+Cutaneous scabies,Infectious Disease Specialist
+Cutaneous pediculosis,Infectious Disease Specialist
+Cutaneous demodicosis,Infectious Disease Specialist
+Cutaneous syphilis,Infectious Disease Specialist
+Cutaneous gonorrhea,Infectious Disease Specialist
+Cutaneous chlamydia,Infectious Disease Specialist
+Cutaneous trichomoniasis,Infectious Disease Specialist
+Cutaneous candidiasis,Infectious Disease Specialist
+Cutaneous tinea,Infectious Disease Specialist
+Cutaneous scabies,Infectious Disease Specialist
+Cutaneous pediculosis,Infectious Disease Specialist
+Cutaneous demodicosis,Infectious Disease Specialist
+Cutaneous syphilis,Infectious Disease Specialist
+Cutaneous gonorrhea,Infectious Disease Specialist
+Cutaneous chlamydia,Infectious Disease Specialist
+Cutaneous trichomoniasis,Infectious Disease Specialist
+Cutaneous candidiasis,Infectious Disease Specialist
+Cutaneous tinea,Infectious Disease Specialist
+Cutaneous scabies,Infectious Disease Specialist
+Cutaneous pediculosis,Infectious Disease Specialist
+Cutaneous demodicosis,Infectious Disease Specialist
+Cutaneous syphilis,Infectious Disease Specialist
+Cutaneous gonorrhea,Infectious Disease Specialist
+Cutaneous chlamydia,Infectious Disease Specialist
+Cutaneous trichomoniasis,Infectious Disease Specialist
+Cutaneous candidiasis,Infectious Disease Specialist
+Cutaneous tinea,Infectious Disease Specialist
+Cutaneous scabies,Infectious Disease Specialist
+Cutaneous pediculosis,Infectious Disease Specialist
+Cutaneous demodicosis,Infectious Disease Specialist
+Cutaneous syphilis,Infectious Disease Specialist
+Cutaneous gonorrhea,Infectious Disease Specialist
+Cutaneous chlamydia,Infectious Disease Specialist
+Cutaneous trichomoniasis,Infectious Disease Specialist
+Cutaneous candidiasis,Infectious Disease Specialist
+Cutaneous tinea,Infectious Disease Specialist
+Cutaneous scabies,Infectious Disease Specialist
+Cutaneous pediculosis,Infectious Disease Specialist
+Cutaneous demodicosis,Infectious Disease Specialist
+Cutaneous syphilis,Infectious Disease Specialist
+Cutaneous gonorrhea,Infectious Disease Specialist
+Cutaneous chlamydia,Infectious Disease Specialist
+Cutaneous trichomoniasis,Infectious Disease Specialist
+Cutaneous candidiasis,Infectious Disease Specialist
+Cutaneous tinea,Infectious Disease Specialist
+Cutaneous scabies,Infectious Disease Specialist
+Cutaneous pediculosis,Infectious Disease Specialist
+Cutaneous demodicosis,Infectious Disease Specialist
+Cutaneous syphilis,Infectious Disease Specialist
+Cutaneous gonorrhea,Infectious Disease Specialist
+Cutaneous chlamydia,Infectious Disease Specialist
+Cutaneous trichomoniasis,Infectious Disease Specialist
+Cutaneous candidiasis,Infectious Disease Specialist
+Cutaneous tinea,Infectious Disease Specialist
+Cutaneous scabies,Infectious Disease Specialist
+Cutaneous pediculosis,Infectious Disease Specialist
+Cutaneous demodicosis,Infectious Disease Specialist
+Cutaneous syphilis,Infectious Disease Specialist
+Cutaneous gonorrhea,Infectious Disease Specialist
+Cutaneous chlamydia,Infectious Disease Specialist
+Cutaneous trichomoniasis,Infectious Disease Specialist
+Cutaneous candidiasis,Infectious Disease Specialist
+Cutaneous tinea,Infectious Disease Specialist
+Cutaneous scabies,Infectious Disease Specialist
+Cutaneous pediculosis,Infectious Disease Specialist
+Cutaneous demodicosis,Infectious Disease Specialist
+Cutaneous syphilis,Infectious Disease Specialist
+Cutaneous gonorrhea,Infectious Disease Specialist
+Cutaneous chlamydia,Infectious Disease Specialist
+Cutaneous trichomoniasis,Infectious Disease Specialist
+Alkylating Agent Cystitis,Urologist
+Abdominal Distension,Gastroenterologist
+Abdominal Distension Prior to Abdominal X-ray,Radiologist
+Abdominal Radiological Procedure,Radiologist
+Abnormal Uterine Bleeding,Gynecologist
+Abortion,Obstetrician/Gynecologist (OB/GYN)
+Ectopic Pregnancy,Obstetrician/Gynecologist (OB/GYN)
+CNS Infection,Neurologist
+Seizures (Convulsions),Neurologist
+Angina,Cardiologist
+Fecal Incontinence,Gastroenterologist or Colorectal Surgeon
+Acetaminophen Overdose,Emergency Medicine Physician or Toxicologist
+Tendonitis,Orthopedic Surgeon or Rheumatologist
+GERD,Gastroenterologist
+Acidosis,Nephrologist or Endocrinologist
+Muscle Pain,Rheumatologist or Physiatrist
+Acne,Dermatologist
+Rosacea,Dermatologist
+HIV Infection,Infectious Disease Specialist or Immunologist
+Methemoglobinemia,Hematologist
+Acromegaly,Endocrinologist
+Erythromelalgia,Neurologist or Rheumatologist
+Actinic Keratosis,Dermatologist
+Actinomycosis,Infectious Disease Specialist
+Asthma,Pulmonologist or Allergist
+Urinary Tract Infection,Urologist or Infectious Disease Specialist
+Acute Lymphocytic Leukemia,Oncologist
+Acute Coronary Syndrome,Cardiologist
+Glomerulonephritis,Nephrologist
+Acute Myeloid Leukemia,Oncologist
+Porphyria,Hematologist or Geneticist
+Acute Lymphoblastic Leukemia,Oncologist
