@@ -31,9 +31,9 @@ ScriptoSolution is a Doctor Recommendation System that analyzes handwritten pres
 
 ## 📂 Datasets Used
 
-1. **Prescription–Medicine Dataset** *(custom)*: Hand-curated dataset containing scanned prescriptions and corresponding medicine lists.
+1. **Prescription–Medicine Dataset**  [🔗 *(Kaggle)*]([https://github.com/anuragpathak27/ScriptoSolution](https://www.kaggle.com/datasets/mehaksingal/illegible-medical-prescription-images-dataset)): Hand-curated dataset containing scanned prescriptions and corresponding medicine lists.
 2. **Disease–Medicine Dataset** *(custom)*: Maps various medicines to likely diseases, based on doctor consultations.
-3. **Specialist–Disease Dataset** *(from Kaggle + custom NCR-specific doctors dataset)*: Maps diseases to the most relevant specialists available in the NCR region.
+3. **Specialist–Disease Dataset** *(custom NCR-specific doctors dataset)*: Maps diseases to the most relevant specialists available in the NCR region.
 
 ---
 
